@@ -14,11 +14,6 @@
   height: 150vh;
 }
 
-.sidebar {
-  display: flex;
-  flex-direction: column;
-}
-
 body {
   font-family: "Lato", sans-serif;
   padding: 10px;
@@ -28,4 +23,11 @@ body {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar a {
+  color: rgb(194, 135, 135);
+  size: 5rem;
 }

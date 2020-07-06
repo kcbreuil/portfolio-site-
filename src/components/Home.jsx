@@ -3,12 +3,8 @@ import "../styling/home.css";
 
 const Home = () => {
   return (
-    <div>
-      <div
-        style={{ fontFamily: "Modak", textAlign: "center", fontSize: "90px" }}
-      >
-        hi. i'm katie
-      </div>
+    <div className="typewriter">
+      <h1>hi. i'm katie. i make stuff.</h1>
     </div>
   );
 };
