@@ -3,7 +3,7 @@
   height: 100px;
   background-color: white;
   font-family: "Lato", sans-serif;
-  font-size: 25px;
+  font-size: 50px;
   padding: 15px;
 }
 
@@ -15,12 +15,11 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: rgb(194, 135, 135);
   color: black;
 }
 

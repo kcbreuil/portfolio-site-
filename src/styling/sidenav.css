@@ -1,0 +1,31 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main,
+.sidebar {
+  padding: 15px;
+  background-color: #fff;
+}
+
+.main {
+  width: 60%;
+  height: 150vh;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  padding: 10px;
+}
+
+.sidebar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
