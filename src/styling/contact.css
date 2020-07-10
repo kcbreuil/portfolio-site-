@@ -4,3 +4,27 @@
   align-items: center;
   font-family: "Lato", sans-serif;
 }
+
+.form-styling {
+  width: 350px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+textarea {
+  width: 350px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.submit-button {
+  width: 350px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 5px;
+  font-family: "Lato", sans-serif;
+  background-color: rgb(194, 135, 135);
+  color: white;
+}

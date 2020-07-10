@@ -4,7 +4,7 @@ import "../styling/header.css";
 const Header = () => {
   return (
     <div className="topnav" id="myTopnav">
-      <a href="/home" className="active">
+      <a href="/" className="active">
         Home
       </a>
       <a href="/about">About</a>

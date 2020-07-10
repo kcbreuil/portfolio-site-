@@ -29,5 +29,12 @@ body {
 
 .sidebar a {
   color: rgb(194, 135, 135);
-  size: 5rem;
+}
+
+.fa-linkedin:before,
+.fa-instagram:before,
+.fa-twitter:before,
+.fa-github:before {
+  font-size: xxx-large;
+  margin: 5px;
 }

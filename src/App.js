@@ -1,11 +1,12 @@
 import React from "react";
-import Header from "./components/Header.jsx";
+
 import Home from "./components/Home.jsx";
 import About from "./components/About.jsx";
 import Contact from "./components/Contact.jsx";
-
 import { BrowserRouter, Route } from "react-router-dom";
+import Header from "./components/Header.jsx";
 import SideNav from "./components/SideNav.jsx";
+import Projects from "./components/Projects.jsx";
 
 const App = () => {
   return (
@@ -13,7 +14,7 @@ const App = () => {
       <BrowserRouter>
         <Header />
         <SideNav />
-        <Route path="/home">
+        <Route exact path="/">
           <Home />
         </Route>
         <Route path="/about">
@@ -21,6 +22,9 @@ const App = () => {
         </Route>
         <Route path="/contact">
           <Contact />
+        </Route>
+        <Route path="/projects">
+          <Projects />
         </Route>
       </BrowserRouter>
     </div>
