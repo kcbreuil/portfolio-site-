@@ -10,12 +10,12 @@
 }
 
 .main {
-  width: 60%;
-  height: 150vh;
+  /* width: 60%;
+  height: 150vh; */
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
   padding: 10px;
 }
 
@@ -35,6 +35,16 @@ body {
 .fa-instagram:before,
 .fa-twitter:before,
 .fa-github:before {
-  font-size: xxx-large;
-  margin: 5px;
+  font-size: xx-large;
+  margin: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .fa-linkedin:before,
+  .fa-instagram:before,
+  .fa-twitter:before,
+  .fa-github:before {
+    font-size: medium;
+    margin: 10px;
+  }
 }

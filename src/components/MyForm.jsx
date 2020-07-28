@@ -19,30 +19,22 @@ export default class MyForm extends React.Component {
         method="POST"
         className="contact-form"
       >
-        <h1>Want to drop me a line?</h1>
+        <p className="heading">Want to drop me a line?</p>
         <iframe
           src="https://giphy.com/embed/1zi11igSWu5IHaEbOt"
-          width="480"
-          height="480"
+          width="250"
+          height="250"
           frameBorder="0"
           className="giphy-embed"
           title="fish"
           allowFullScreen
         ></iframe>
-        <input
-          className="form-styling"
-          type="text"
-          name="name"
-          placeholder="name"
-        />
-        <input
-          className="form-styling"
-          type="text"
-          name="email"
-          placeholder="email"
-        />
-
-        <textarea type="text" name="message" placeholder="message" />
+        <label>name</label>
+        <input className="form-styling" type="text" name="name" />
+        <label>email</label>
+        <input className="form-styling" type="text" name="email" />
+        <label>message</label>
+        <textarea type="text" name="message" />
         {status === "SUCCESS" ? (
           <p>Thanks!</p>
         ) : (
