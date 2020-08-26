@@ -1,12 +1,19 @@
 .about {
-  font-family: "Open Sans", sans-serif;
-  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
   max-width: 1000px;
 }
 
 .about-flex {
   display: flex;
   justify-content: center;
+}
+
+.about-me {
+  font-family: 'Amatic SC', cursive;
+  color: rgb(194, 135, 135);
+  font-weight: bold;
+  font-size: 30px;
 }
 
 @media screen and (max-width: 600px) {

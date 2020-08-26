@@ -2,3 +2,10 @@
   display: flex;
   justify-content: space-evenly;
 }
+
+@media screen and (max-width: 450px) {
+  .portfolio-flex {
+    display: flex;
+    flex-direction: column;
+  }
+}
