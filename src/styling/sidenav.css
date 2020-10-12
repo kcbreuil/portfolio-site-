@@ -15,7 +15,7 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   padding: 10px;
 }
 
@@ -37,6 +37,14 @@ body {
 .fa-github:before {
   font-size: xx-large;
   margin: 10px;
+}
+
+.fa-linkedin:hover,
+.fa-instagram:hover,
+.fa-twitter:hover,
+.fa-github:hover {
+  transform: scale(1.3);
+  color: black;
 }
 
 @media screen and (max-width: 600px) {

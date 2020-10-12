@@ -2,7 +2,7 @@
 .topnav {
   height: 50px;
   background-color: white;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 25px;
   padding: 15px;
 }
@@ -20,7 +20,8 @@
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: rgb(194, 135, 135);
-  color: black;
+  color: whitesmoke;
+  transform: scale(1.1);
 }
 
 /* Hide the link that should open and close the topnav on small screens */

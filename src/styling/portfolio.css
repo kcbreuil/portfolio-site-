@@ -1,6 +1,27 @@
 .portfolio-flex {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
+}
+
+.project-div {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.project-div p {
+  width: 450px;
+}
+.project-div a {
+  text-decoration: none;
+  color: rgb(194, 135, 135);
+}
+.project-name {
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+}
+.project-name:hover {
+  transform: scale(1.1);
+  color: rgb(194, 135, 135);
 }
 
 @media screen and (max-width: 450px) {

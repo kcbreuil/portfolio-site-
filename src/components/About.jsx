@@ -16,6 +16,12 @@ const About = () => {
             delicious-iced-caffeinated beverage, in no specific order.
           </p>
         </div>
+        <div className="about">
+          <p className="about-me">Skills</p>
+          <p>
+           HTML • CSS • JavaScript • Node.js • React • MongoDB • Express • Firebase • Gatsby • Heroku • AWS • Netlify • Mongoose • Socket.io • Dokku • Postgres • NoSQL • MVC • Sanity.io 
+          </p>
+        </div>
       </div>
     </div>
   );
