@@ -4,7 +4,7 @@ import fm3 from "../assets/fm3.mov";
 import netapp from "../assets/NetApp.mov"
 import chatroom from "../assets/chatroom.mov"
 import pizza from '../assets/pizza.png';
-import calc from '../assets/calc.png';
+import calc from '../assets/Calc.png';
 import moodsic from '../assets/moodsic.png'
 
 import "../styling/portfolio.css";
@@ -77,5 +77,4 @@ const Projects = () => {
     </div>
   );
 };
-
 export default Projects;
