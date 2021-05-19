@@ -3,6 +3,9 @@ import quaranred from "../assets/quaranred.mov";
 import fm3 from "../assets/fm3.mov";
 import netapp from "../assets/NetApp.mov"
 import chatroom from "../assets/chatroom.mov"
+import pizza from '../assets/pizza.png';
+import calc from '../assets/calc.png';
+
 import "../styling/portfolio.css";
 
 const Projects = () => {
@@ -47,7 +50,7 @@ const Projects = () => {
         </div>
         <div className="project-div">
           <h1 className="project-name">Pizza Pizza</h1>
-          {/* <video src={netapp} width="420" height="340" controls></video>     */}
+          <img src={pizza} width="420" height="340" />   
           <p>A Gatsby site developed with styled-components, Sanity headless CMS, and Netlify functions </p>
           <a href="https://github.com/kcbreuil/pizza-pizza">Source Code</a>
           <br></br>
@@ -55,7 +58,7 @@ const Projects = () => {
         </div>
         <div className="project-div">
           <h1 className="project-name">Mortgage Calculator</h1>
-          {/* <video src={netapp} width="420" height="340" controls></video>     */}
+          <img src={calc} width="420" height="340" />   
           <p>A simple web app built with good ol' Vanilla JS. Deployed with Dokku on my personal Digital Ocean server</p>
           <a href="https://github.com/kcbreuil/mortgage-calculator">Source Code</a>
           <br></br>
@@ -65,9 +68,9 @@ const Projects = () => {
           <h1 className="project-name">Moodsic</h1>
           {/* <video src={netapp} width="420" height="340" controls></video>     */}
           <p>A fullstack web application built with React, Node.JS, Express and MongoDB</p>
-          <a href="https://github.com/kcbreuil/mortgage-calculator">Source Code</a>
+          <a href="https://github.com/kcbreuil/moodsic">Source Code</a>
           <br></br>
-          <a href="https://mortgage-calculator.kaitlynbreuil.com/">Live Site</a>
+          <a href="https://blooming-earth-54312.herokuapp.com/">Live Site</a>
         </div>
       </div>
     </div>
