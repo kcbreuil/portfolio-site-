@@ -5,6 +5,7 @@ import netapp from "../assets/NetApp.mov"
 import chatroom from "../assets/chatroom.mov"
 import pizza from '../assets/pizza.png';
 import calc from '../assets/calc.png';
+import moodsic from '../assets/moodsic.png'
 
 import "../styling/portfolio.css";
 
@@ -50,7 +51,7 @@ const Projects = () => {
         </div>
         <div className="project-div">
           <h1 className="project-name">Pizza Pizza</h1>
-          <img src={pizza} width="420" height="340" />   
+          <img src={pizza} width="420" height="340" alt="project"/>   
           <p>A Gatsby site developed with styled-components, Sanity headless CMS, and Netlify functions </p>
           <a href="https://github.com/kcbreuil/pizza-pizza">Source Code</a>
           <br></br>
@@ -58,7 +59,7 @@ const Projects = () => {
         </div>
         <div className="project-div">
           <h1 className="project-name">Mortgage Calculator</h1>
-          <img src={calc} width="420" height="340" />   
+          <img src={calc} width="420" height="340"  alt="project"/>   
           <p>A simple web app built with good ol' Vanilla JS. Deployed with Dokku on my personal Digital Ocean server</p>
           <a href="https://github.com/kcbreuil/mortgage-calculator">Source Code</a>
           <br></br>
@@ -66,7 +67,7 @@ const Projects = () => {
         </div>
         <div className="project-div">
           <h1 className="project-name">Moodsic</h1>
-          {/* <video src={netapp} width="420" height="340" controls></video>     */}
+          <img src={moodsic} width="420" height="340"  alt="project"/>   
           <p>A fullstack web application built with React, Node.JS, Express and MongoDB</p>
           <a href="https://github.com/kcbreuil/moodsic">Source Code</a>
           <br></br>
