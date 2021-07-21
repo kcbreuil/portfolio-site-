@@ -45,9 +45,8 @@ const Projects = () => {
           <h1 className="project-name">Trivia Game</h1>
           <video src={netapp} width="420" height="340" controls></video>    
           <p>A trivia game created with ReactJS, MongoDB, Express, Node.JS, SendGrid and third-party API integration for NetApp and Google Cloud Next '20. </p>
-          <a href="https://github.com/kcbreuil/chatroom-io">Source Code</a>
           <br></br>
-          <a href="https://github.com/kcbreuil/chatroom-io">Live Site</a>
+          <a href="https://whispering-garden-42678.herokuapp.com/">Live Site</a>
         </div>
         <div className="project-div">
           <h1 className="project-name">Pizza Pizza</h1>
